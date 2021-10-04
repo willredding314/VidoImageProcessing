@@ -1,0 +1,10 @@
+create base 0
+load forest_original.ppm
+apply sepia
+
+create second 1
+workon second
+load forest_original.ppm
+apply blur
+apply grayscale
+apply sharpen
